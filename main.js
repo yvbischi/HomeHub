@@ -6,6 +6,8 @@ var key = "HEREISYOURPERSONALOPENWEATHERMAPAPIKEY";
 var cityid = 123456;
 //3 hours
 var secondcounter = 10800;
+//your username on github
+var username = "GITHUBUSER";
 //we get the Weather on load of the page
 window.onload = function(){
 	//get the weather for hünenberg
@@ -35,8 +37,13 @@ function refreshInfo(){
 	
 }
 function getQuote(){
-	var randomNumber = Math.floor(Math.random() * quotes.length);
-	document.getElementById("todayQuote").innerHTML = quotes[randomNumber];
+	var quoteAccess = "https://raw.githubusercontent.com/"+username+"/HomeHub/main/quotes.json";
+	fetch(quoteAccess)
+	.then(response => response.json())
+	.then(function(data){
+	var randomNumber = Math.floor(Math.random() * data.length);
+	document.getElementById("todayQuote").innerHTML = data[randomNumber];  
+  });
 }
 //getTime
 function getTime(){
