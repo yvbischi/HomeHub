@@ -1,0 +1,54 @@
+.title{
+	margin: auto;
+	width: 50%;
+	padding: 10px;
+	text-align: center;
+}
+.mainwrapper{
+	margin: auto;
+	width: 95%;
+	padding: 10px;
+	text-align: left;
+	color: #8E8D8A;
+	display: flex;
+	
+}
+.titleParagraph{
+	font-family: Georgia, serif;
+	font-size: 400%;
+	color: #DAC5A7;
+}
+.weather{
+	margin: auto;
+	width: 80%;
+	padding: 10px;
+}
+.weatherWrap{
+	display: flex;
+	flex-direction: column; 
+}
+#currentWeatherPic{
+	height: auto;
+	width: auto;
+}
+.weatherHeader{
+	display: flex;
+}
+.timeHeader{
+	padding: 10px;
+}
+#curTime{
+	font-size: 250%;
+}
+.quote,.calendarHeader,.weather{
+	width: 25%;
+}
+.timeHeader{
+	width: auto;
+}
+#temp,#description{
+	width: 33%;
+}
+#feelsTemp{
+	width: 33%;
+}
