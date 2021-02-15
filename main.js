@@ -9,7 +9,7 @@ var secondcounter = 10800;
 //we get the Weather on load of the page
 window.onload = function(){
 	//get the weather for hünenberg
-	//getWeather(cityid);
+	getWeather(cityid);
 	//get CurrentQuote
 	getQuote();
 	//getTimeInfo
@@ -28,7 +28,7 @@ function refreshInfo(){
 	}else{
 		//all three hours (10800 seconds) update weather and quote
 		secondcounter = 10800;
-		//getWeather(cityid);
+		getWeather(cityid);
 		getQuote();
 		setTimeout(refreshInfo, 1000); 
 	}
