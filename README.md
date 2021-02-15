@@ -7,5 +7,5 @@ Includes:
   -Current Weather(fetched by OpenWeatherMapAPI)
   -A Quote to help you focus on whatever you're doing right now
   -current Time
-  -google calendar, to show the most important events of today and yesterday
-  -spotify interface, to listen to music
+  -*In Progress* apple calendar, to show the most important events of today and the next day
+  -*In Progress* spotify interface, to listen to music
