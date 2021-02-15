@@ -5,7 +5,7 @@ Keep in mind that primarily this is intended for personal use.
 
 Includes:
   -Current Weather(fetched by OpenWeatherMapAPI)
-  -A Quote to help you focus on whatever you're doing right now
+  -A Note to get reminded of a thing you wanted to do
   -current Time
-  -*In Progress* apple calendar, to show the most important events of today and the next day
+  -*In Progress* Timer Function
   -*In Progress* spotify interface, to listen to music
